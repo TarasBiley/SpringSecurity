@@ -1,2 +1,6 @@
-package com.security.configration;public class SecurityInitializer {
+package com.security.configration;
+
+import org.springframework.security.web.context.AbstractSecurityWebApplicationInitializer;
+
+public class SecurityInitializer extends AbstractSecurityWebApplicationInitializer {
 }
